@@ -14,7 +14,6 @@ function Register() {
   }, [form]);
   function handleSubmit(e) {
     e.preventDefault();
-    // console.log(name,password,user,email)
 
     const userDetails = {
       name: name,
